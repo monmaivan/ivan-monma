@@ -109,6 +109,7 @@
     background-clip: text;
   }
   
+  /* Simplified animations - keeping only essential ones */
   .animate-fade-in-up {
     animation: fadeInUp 0.6s ease-out;
   }
@@ -121,7 +122,7 @@
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;

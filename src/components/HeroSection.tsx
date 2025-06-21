@@ -13,27 +13,27 @@ const HeroSection = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center gradient-bg relative overflow-hidden">
-      {/* Background Animation */}
+      {/* Simplified Background Animation */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-pulse delay-300"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-white/3 rounded-full blur-3xl"></div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
-          {/* Profile Image */}
-          <div className="mb-8 animate-fade-in">
+          {/* Profile Image - Updated */}
+          <div className="mb-8">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face" 
+                src="/lovable-uploads/8c115ff2-1e69-4aa0-98d3-aadfb750a3ee.png" 
                 alt="Ivan Monma" 
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
-          {/* Main Content */}
-          <div className="animate-fade-in-up">
+          {/* Main Content - Simplified */}
+          <div>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Olá, eu sou <span className="text-yellow-300">Ivan Monma</span>
             </h1>
@@ -65,7 +65,7 @@ const HeroSection = () => {
           </div>
 
           {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
             <Button 
               variant="ghost" 
               size="sm"
