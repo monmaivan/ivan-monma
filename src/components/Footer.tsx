@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Linkedin, Mail, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-gradient mb-2">Ivan Monma</h3>
             <p className="text-gray-400">
-              Desenvolvedor Full-Stack apaixonado por criar soluções inovadoras
+              Especialista em Gestão de Projetos e Transformação Digital
             </p>
           </div>
 
@@ -30,22 +30,10 @@ const Footer = () => {
                 Início
               </button>
               <button 
-                onClick={() => document.getElementById('sobre')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
                 className="text-gray-400 hover:text-white transition-colors"
               >
-                Sobre
-              </button>
-              <button 
-                onClick={() => document.getElementById('habilidades')?.scrollIntoView({ behavior: 'smooth' })}
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                Habilidades
-              </button>
-              <button 
-                onClick={() => document.getElementById('experiencia')?.scrollIntoView({ behavior: 'smooth' })}
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                Experiência
+                Contato
               </button>
             </div>
           </div>
@@ -58,12 +46,7 @@ const Footer = () => {
               </a>
             </Button>
             <Button variant="ghost" size="sm" asChild className="text-gray-400 hover:text-white">
-              <a href="https://github.com/ivanmonma" target="_blank" rel="noopener noreferrer">
-                <Github className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="sm" asChild className="text-gray-400 hover:text-white">
-              <a href="mailto:ivan.monma@gmail.com">
+              <a href="mailto:monma.ivan@outlook.com">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>

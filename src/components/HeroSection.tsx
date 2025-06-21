@@ -25,7 +25,7 @@ const HeroSection = () => {
           <div className="mb-8">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center overflow-hidden">
               <img 
-                src="/lovable-uploads/8c115ff2-1e69-4aa0-98d3-aadfb750a3ee.png" 
+                src="/lovable-uploads/84f2ba39-df84-408e-810d-f99aeecbf7b8.png" 
                 alt="Ivan Monma" 
                 className="w-full h-full object-cover"
               />
@@ -38,7 +38,7 @@ const HeroSection = () => {
               Olá, eu sou <span className="text-yellow-300">Ivan Monma</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">
-              Especialista em Gestão de Projetos, Agilidade e Transformação Digital
+              Especialista em Gestão de Projetos e Transformação Digital
             </p>
             <div className="text-lg text-white/80 mb-8 max-w-4xl mx-auto space-y-3">
               <p>Transformo ideias em entregas concretas com agilidade, estratégia e foco em resultado.</p>
@@ -69,7 +69,7 @@ const HeroSection = () => {
             <Button 
               variant="ghost" 
               size="sm"
-              onClick={() => scrollToSection('sobre')}
+              onClick={() => scrollToSection('contato')}
               className="text-white hover:bg-white/10"
             >
               <ArrowDown className="h-6 w-6" />

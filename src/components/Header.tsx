@@ -28,24 +28,6 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <button 
-              onClick={() => scrollToSection('sobre')}
-              className="text-gray-700 hover:text-primary transition-colors"
-            >
-              Sobre
-            </button>
-            <button 
-              onClick={() => scrollToSection('habilidades')}
-              className="text-gray-700 hover:text-primary transition-colors"
-            >
-              Habilidades
-            </button>
-            <button 
-              onClick={() => scrollToSection('experiencia')}
-              className="text-gray-700 hover:text-primary transition-colors"
-            >
-              Experiência
-            </button>
-            <button 
               onClick={() => scrollToSection('contato')}
               className="text-gray-700 hover:text-primary transition-colors"
             >
@@ -61,12 +43,7 @@ const Header = () => {
               </a>
             </Button>
             <Button variant="ghost" size="sm" asChild>
-              <a href="https://github.com/ivanmonma" target="_blank" rel="noopener noreferrer">
-                <Github className="h-4 w-4" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="sm" asChild>
-              <a href="mailto:ivan.monma@gmail.com">
+              <a href="mailto:monma.ivan@outlook.com">
                 <Mail className="h-4 w-4" />
               </a>
             </Button>
@@ -88,24 +65,6 @@ const Header = () => {
           <div className="md:hidden pb-4">
             <nav className="flex flex-col space-y-2">
               <button 
-                onClick={() => scrollToSection('sobre')}
-                className="text-left py-2 text-gray-700 hover:text-primary transition-colors"
-              >
-                Sobre
-              </button>
-              <button 
-                onClick={() => scrollToSection('habilidades')}
-                className="text-left py-2 text-gray-700 hover:text-primary transition-colors"
-              >
-                Habilidades
-              </button>
-              <button 
-                onClick={() => scrollToSection('experiencia')}
-                className="text-left py-2 text-gray-700 hover:text-primary transition-colors"
-              >
-                Experiência
-              </button>
-              <button 
                 onClick={() => scrollToSection('contato')}
                 className="text-left py-2 text-gray-700 hover:text-primary transition-colors"
               >
@@ -118,12 +77,7 @@ const Header = () => {
                   </a>
                 </Button>
                 <Button variant="ghost" size="sm" asChild>
-                  <a href="https://github.com/ivanmonma" target="_blank" rel="noopener noreferrer">
-                    <Github className="h-4 w-4" />
-                  </a>
-                </Button>
-                <Button variant="ghost" size="sm" asChild>
-                  <a href="mailto:ivan.monma@gmail.com">
+                  <a href="mailto:monma.ivan@outlook.com">
                     <Mail className="h-4 w-4" />
                   </a>
                 </Button>
