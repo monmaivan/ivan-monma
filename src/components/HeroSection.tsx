@@ -38,11 +38,12 @@ const HeroSection = () => {
               Olá, eu sou <span className="text-yellow-300">Ivan Monma</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">
-              Desenvolvedor Full-Stack especializado em React & Node.js
+              Especialista em Gestão de Projetos, Agilidade e Transformação Digital
             </p>
-            <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
-              Transformo ideias em soluções digitais inovadoras com foco em experiência do usuário e performance
-            </p>
+            <div className="text-lg text-white/80 mb-8 max-w-4xl mx-auto space-y-3">
+              <p>Transformo ideias em entregas concretas com agilidade, estratégia e foco em resultado.</p>
+              <p>Conecto áreas técnicas e funcionais usando ferramentas como Jira e Confluence para organizar, simplificar e acelerar projetos que fazem sentido.</p>
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
