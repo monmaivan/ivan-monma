@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowDown, Download } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -21,7 +21,7 @@ const HeroSection = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
-          {/* Profile Image - Updated */}
+          {/* Profile Image */}
           <div className="mb-8">
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-white/20 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center overflow-hidden">
               <img 
@@ -32,7 +32,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Main Content - Simplified */}
+          {/* Main Content */}
           <div>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Olá, eu sou <span className="text-yellow-300">Ivan Monma</span>
@@ -45,21 +45,13 @@ const HeroSection = () => {
               <p>Conecto áreas técnicas e funcionais usando ferramentas como Jira e Confluence para organizar, simplificar e acelerar projetos que fazem sentido.</p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex justify-center">
               <Button 
                 size="lg" 
                 className="bg-white text-gray-900 hover:bg-gray-100 px-8 py-3"
                 onClick={() => scrollToSection('contato')}
               >
                 Entre em Contato
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3"
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download CV
               </Button>
             </div>
           </div>
